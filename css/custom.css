@@ -97,3 +97,97 @@ h2 {
     color: #555;
     margin-bottom: 1rem;
 }
+
+/* Buy form */
+.buy-form {
+    background: white;
+    border: 1px solid #e9ecef;
+}
+
+.buy-form label {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.buy-form .form-control:focus,
+.buy-form .form-select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25);
+}
+
+.buy-form button:hover {
+    background-color: #2980b9;
+}
+
+/* Tab panel */
+.nav-tabs .nav-link {
+    color: #555;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #3498db;
+}
+
+.nav-tabs .nav-link.active {
+    color: #3498db;
+    border-bottom: 3px solid #3498db;
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+    color: #bdc3c7;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+    
+    .hero-section {
+        padding: 2rem 0;
+    }
+    
+    .hero-section img {
+        max-width: 200px;
+    }
+    
+    .author-photo {
+        max-width: 200px;
+    }
+    
+    .synopsis-text,
+    .author-bio {
+        text-align: left;
+        font-size: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section img {
+        max-width: 150px;
+    }
+    
+    .author-photo {
+        max-width: 150px;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
